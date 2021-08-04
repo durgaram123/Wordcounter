@@ -1,0 +1,15 @@
+<h2> Total count of words {{ count }} </h2>
+
+<h1>My text:</h1>
+{{ fulltext}}
+
+<h1>Total words count:</h1>
+
+{% for word, counttotal in sortedwords %}
+
+{{ word }} - {{ counttotal }}
+<br>
+
+{% endfor %}
+
+copyrights2021

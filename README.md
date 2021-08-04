@@ -1,1 +1,1 @@
-# Wordcounter
+wordcounter-project
